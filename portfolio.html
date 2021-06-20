@@ -1,0 +1,391 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+	<title>Yejin's Portfolio</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<!-- social icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> 
+	<script> AOS.init(); </script>
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lato:wght@300&family=Montserrat:wght@100;600;900&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Merriweather:wght@700&display=swap');;
+		.fontA{font-family: 'Acme', sans-serif;}
+		.fontB{font-family: 'Montserrat', sans-serif;}
+		.fontC{font-family: 'Lato', sans-serif;}
+      	.jb-600 {font-weight: 600;}
+      	.jb-400 {font-weight: 400;}
+      	.fontD{font-family: 'Merriweather', serif;}
+      	.fontE{font-family: 'Inter', sans-serif;}
+      	.ul.nav-pills{
+      		top:20px;
+      		position: fixed;
+      	}
+      	body{
+      	position: relative;
+      	}
+      	.linear_gradient {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#EC6947, #F7E67C);
+    	}
+    	
+    	.contact_container{
+        width: 100%;
+        height: 100%;
+        background: #01A2AC;
+    	}
+		.circle {
+		    width: 70x;
+		    height: 70px; 
+		}
+		.circle img {height:auto; width:70px; }
+		.profile {
+		    width: 300px;
+		    height: 300px;
+		    border-radius: 70%;
+		    overflow: hidden;
+		  }
+		  .profile-img {
+		    width: 100%;
+		    height: 100%;
+		    object-fit: cover;
+		  }
+	</style>
+</head>
+﻿
+<body id="topPage" data-spy="scroll" data-target="#mainNavbar" data-offset="20">
+	<!-- scroll spy 모르겠당.. -->
+	<!-- Navigation -->
+	﻿<nav class="navbar navbar-expand-lg fixed-top navbar-light" id = "mainNavbar">
+	  <div class="container">
+	    <a class="navbar-brand js-scroll-trigger" href="#topPage">Yejjang</a>
+	    <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNav">
+	      <ul class="navbar-nav ml-auto nav nav-pills nav-stacked">
+	        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li> <!-- about me, skills, studying -->
+	        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#project">Project</a></li>
+	        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	 <!-- Navbar -->
+	 
+	<!-- Top -->
+	<header>
+	<div class="newHeader container-fluid" style="background-color:#EC6947;">
+	    
+	      <div class="d-flex align-items-center h-100 mx-4">
+	        <div class="text-white">
+	          <h1 class="fontE mb-5" style="margin-top:10%; font-size:80px;">Hello and Welcome!<br>I'm Yejin.<br>
+	          I study iOS & Android App development.</h1>
+				<div class="mx-2" style="margin-bottom:10%;">
+			   		<a class="navbar-brand mr-1" href="mailto:jyjin428@hanyang.ac.kr" target="_blank">
+			   			<i class="far fa-envelope" style="font-size:30px; color:white;"></i>
+					</a>
+					<a class="navbar-brand mr-1" href="https://www.instagram.com/yommyjooin" target="_blank">
+						<i class="fab fa-instagram" style="font-size:30px; color:white;"></i>
+					</a>
+					<a class="navbar-brand mr-1" href="https://www.github.com/yommyjooin" target="_blank">
+						<i class="fab fa-github" style="font-size:30px; color:white;"></i>
+					</a>
+				</div>
+			</div>
+	      </div>
+
+	    </div>
+
+	 </header>
+	 
+
+	  <!-- Background image -->
+	
+	<!-- <div data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+	-->
+	
+	<div data-sppy="scroll" data-target="mainNavbar" data-offset="0">
+	<!-- About -->
+	<!-- Skills(What I do), Interested in, Studying, about me? -->
+	<section id="about" class="linear_gradient portfolio">
+		<div class = "container">
+			<div class="row mx-auto ">
+			<h2 class="fontE text-white pt-5 mt-5 text-center" style="font-size:35px;"><b>Profile</b></h2>
+				<div class="col-lg-2"></div>
+				<div class="col-lg-4 col-md-6 profile" style="margin-top:8% ;">
+				  <img src="image/profile3.JPG" alt="profile" width="300px">
+				</div>
+			  	<div class="col-lg-6 col-md-6 mt-5">
+			  		<div class="pt-5" style="font-size: 18px; margin-left:13%;">
+			  			<!-- color:#50BCDF; -->
+			  			<p style="font-size:20px; color:#f04e4b;"> <b>Department of</b><br></p>
+						<p class="text-white mb-5">Hanyang Uinversity ERICA Devision of Media<br></p>
+						<p style="font-size:20px; color:#f04e4b;"><b>Hobby</b><br></p>
+						<p class="text-white">• Working out 🏋️‍<br>️• Pole dance 💃<br>• Studying about dog behaviors 🐶<br></p>
+						<br><br>
+						<p class="text-white">
+						새로운 것을 배우고, 도전하기를 좋아합니다. <br>
+						많은 사람들과의 교류를 통해 멋진 프로젝트에 기여하고 싶습니다.<br>
+						<br>
+						</p>
+					</div>
+			  	</div>
+			</div>
+		</div>
+		
+		<!-- === Skills === -->
+		<div class = "container">
+			<!-- 왼쪽 정렬
+			<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+			<div class="col-lg-10 mx-auto text-lg-left">
+				<h2 class="text-white mb-4 pt-5 mt-5 ">Skills</h2>
+				<p class="text-white-50">
+			-->	  
+			<div class="row no-gutters ">
+				<div class="col-lg-8 mx-auto text-lg-left">
+					<h2 class="fontE text-white mb-4 pt-5 mt-5 " style="font-size:35px;"><b>Skills</b></h2>
+					<p style="color:#f2f2ed; font-size:18px">
+						✓ Java, C, Python, HTML, CSS<br>
+						✓ Android Studio, Unity<br>
+						✓ MySQL<br>
+					</p>
+					<div class="row no-gutters pt-3 mx-3">
+						<!-- <div id="circle"></div> -->
+						<div class="img col-lg-3 col-md-6 mt-5">	
+							<div class="circle"><img src="image/java.png" width="100"></div>
+						</div>
+						<!-- 
+						<div class="col-lg-3 col-md-6 mt-2">
+							<svg class = "bd-placeholder-img rounded-circle" width = "100" height="100">
+								<rect width="100%" height = "100%" fill = "tomato"></svg>				
+						</div>
+						 -->
+						<div class="img col-lg-3 col-md-6 mt-5">	
+							<div class="circle"><img src="image/c.png" width="100"></div>
+						</div>
+						<div class="img col-lg-3 col-md-6 mt-5">	
+							<div class="circle"><img src="image/python.png" width="100"></div>
+						</div>
+						<div class="img col-lg-3 col-md-6 mt-5">	
+							<div class="circle"><img src="image/html.png" width="100"></div>
+						</div>		
+						
+					</div>
+					<div class="row pt-3 mx-3">
+						<!-- <div id="circle"></div> -->
+						<div class="img col-lg-3 col-md-6 mt-5">	
+							<div class="circle"><img src="image/css.png" width="100"></div>
+						</div>
+						<div class="img col-lg-3 col-md-6 mt-5">	
+							<div class="circle"><img src="image/android.png" width="100"></div>
+						</div>
+						<div class="img col-lg-3 col-md-6 mt-5">	
+							<div class="circle"><img src="image/unity.png" width="100"></div>
+						</div>
+						<div class="img col-lg-3 col-md-6 mt-5">	
+							<div class="circle"><img src="image/mysql.png" width="100"></div>
+						</div>		
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- === What I Study === -->
+		<div class="container mt-5">
+		<!--<div class="row justify-content-center mx-md-3 mx-sm-5 mb-lg-0">  -->
+		<div class="row no-gutters ">
+			<div class="col-lg-8 mx-auto text-lg-left">
+				<h2 class="fontE text-white mb-4 pt-5 mt-5 " style="font-size:35px;"><b>What I Study</b></h2>
+				<p style="color:#f2f2ed; font-size:18px">
+					✓ C, JAVA, PYTHON, 알고리즘, 자료구조, 데이터베이스<br>
+					✓ 운영체제<br>
+					✓ Android(JAVA), iOS(Swift)<br>
+					✓ Machine Learning, Deep Learning (LAB))<br>
+				</p>
+				
+				<div class = "study-container">
+				<div class="item" id="7">
+					<img src="image/os1.png" alt="">
+						<div class="text-study">
+							<h3>HRRN Scheduler</h3>
+							<p>Linux 환경에서 구현한 범용 OS 스케줄러(HRRN Algorithm)입니다. OS를 공부하고 있습니다.</p>
+							<a class="" href="https://github.com/yommyjooin/os_teem3" target="_blank">
+								<i class="i-study fab fa-github" style="font-size:3rem; color:#f04e4b; text-align:center"></i>
+							</a>
+						</div>
+				</div>
+				<div class="item" id="8">
+					<img src="image/deepLearning1.png" alt="">
+						<div class="text-study">
+							<h3>Deep Learning</h3>
+							<p>다양한 데이터셋에 대하여 네트워크를 작성하고 학습시켜 예측에 대한 정확도를 높였습니다.</p>
+						</div>
+				</div>
+				<div class="item" id="9">
+					<img src="image/algorithm.png" alt="">
+						<div class="text-study">
+							<h3>Algorithm</h3>
+							<p>백준과 프로그래머스 문제 풀이를 통해 알고리즘을 공부하고 있습니다.</p>
+							<a class="" href="https://github.com/yommyjooin/JavaPythonAlgoStudy/" target="_blank">
+								<i class="i-study fab fa-github" style="font-size:3rem; color:#f04e4b; text-align:center"></i>
+							</a>
+						</div>
+				</div>
+				<div class="item" id="10">
+					<img src="image/swift1.png" alt="">
+						<div class="text-study">
+							<h3>iOS</h3>
+							<p>swift 언어를 공부하고 iOS 앱 개발을 공부하고 있습니다.</p>
+						</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</section>
+	
+	<div id="project" style="height: 150px; overflow: hidden;background-color: #F7E67C;" >
+	<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+	<path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: white;">
+	</path></svg></div>
+	
+	<!-- ===Project=== -->
+	<section id="project">
+	<!--  <hr class = "project-container" style="color:white;" id= "project">-->
+		<div class= "container-fluid au">
+			<h1 class = "fontE text-center" style="font-size:35pt; color:#363638; font-weight: 500;"><b>Project</b></h1>
+			<div class="container mx-auto text-center">
+				<p class = "text-muted fontE lead mx-2 mt-3" style="font-size:22px;">These are my projects</p>
+			</div>
+			<div class = "project-container">
+				<div class="item" id="1">
+					<img src="image/unity1.png" alt="">
+					<div class="text">
+						<h3>VR Model House</h3>
+						<p>unity를 이용해 개발한 VR 모델하우스입니다.</p>
+						<!-- 
+						가상의 클라이언트를 설정하고, 요구사항에 맞추어 C# script를 통해 개발했습니다. -->
+					</div>
+					<div class="button">Learn More</div>
+				</div>
+				
+				<div class="item" id="2">
+					<img src="image/arduino3.png" alt="">
+						<div class="text">
+							<h3>공공장소 도난 방지 시스템</h3>
+							<p>Arduino UNO와 C++언어를 이용해 만든 도난 방지 장치입니다.</p>
+							<!-- 
+							카페 등의 공공장소에서 잠시 자리를 비울 때, 노트북과 같은 귀중품의 안전이 걱정되던 경험에서 비롯하여 개발하게 되었습니다.
+							귀중품에 움직임 등의 변화가 감지되면, 경보음이 울리며 사용자에게 알림을 전송합니다.-->
+						</div>
+						<div class="button">Learn More</div>
+				</div>
+				<div class="item" id="3">
+					<img src="image/androidApp.png" alt="">
+						<div class="text">
+							<h3>대중교통 통합 시간표 앱</h3>
+							<p>안드로이드 스튜디오와 JAVA를 이용해 개발한 기차, 고속버스 시간표 통합 애플리케이션입니다.</p>
+							 <!-- 
+							지역 이동시에 탈 수 있는 교통수단이 다양한데, 시간표와 정보를 확인하기 위해서는 각 수단별 앱을 이용해야하는 불편함이 있었습니다.
+							따라서 사용자에게 기차와 고속버스의 시간표를 통합하여 제공해주는 서비스를 개발하게 되었습니다. -->
+						</div>
+						<div class="button">Learn More</div>
+				</div>
+				
+				<div class="item" id="4">
+					<img src="image/comingSoon.jpeg" alt="">
+						<div class="text">
+							<h3>Coming Soon</h3>
+							<p>준비중입니다.</p>
+						</div>
+				</div>
+				
+				<div class="item" id="5">
+					<img src="image/comingSoon.jpeg" alt="">
+						<div class="text">
+							<h3>Coming Soon</h3>
+							<p>준비중입니다.</p>
+						</div>
+				</div>
+				
+				<div class="item" id="6">
+					<img src="image/comingSoon.jpeg" alt="">
+						<div class="text">
+							<h3>Coming Soon</h3>
+							<p>준비중입니다.</p>
+						</div>
+				</div>
+				
+				<div id="preview" class="modal">
+				  <div class="modal-content">
+				    <span class="close">&times;</span>
+				    <img id="img" src="">
+				    <div id="details">
+				      <h3 id="title"></h3>
+				      <p id="info">Some text</p>
+				      <!--  <div class="button" id="live">View</div> -->
+						<i class="i-tag fab fa-github-square" id="github"></i>
+				    </div>
+				  </div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	
+	<div>
+	
+	<div class="mt-3 id="contact" style="height: 150px; overflow: hidden;background-color: white;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #01A2AC;"></path></svg></div>
+	
+	</div>
+	<section id="contact">
+
+	<div class = "contact_container">
+	<!--<hr class = "container my-5" id = "contact">-->
+		<div class="container">
+				<h2 class = "fontE jb-400 display-1 my-5 mx-3">Contact Me Now!<br>
+				<span class="fontE jb-400 mx-3" style="color:#eeeeeb">I'm always online.</span></h2>
+		
+				<div class="row mx-5" style="margin-top:10%; margin-bottom:10%;">
+					<div class="row col-lg-4 col-sm-12">
+			   		<a class="col-lg-4" href="mailto:jyjin428@hanyang.ac.kr" target="_blank">
+			   			<i class="mx-3 mb-3 far fa-envelope" style="font-size:50px; color:white;"></i>
+					</a>
+					<a class="col-lg-4" href="https://www.instagram.com/yommyjooin" target="_blank">
+						<i class="mx-3 mb-3 fab fa-instagram" style="font-size:50px; color:white;"></i>
+					</a>
+					<a class="col-lg-4" href="https://www.github.com/yommyjooin" target="_blank">
+						<i class="mx-3 mb-3 fab fa-github" style="font-size:50px; color:white;"></i>
+					</a>
+					</div>
+					<div class="col-lg-8"></div>
+				</div>
+		</div>
+	<footer class = "text-center text-muted small text-white-50" style="background:#01A2AC;">
+		<p>© 2021. YejinJang all rights reserved.<br>
+		framework <a href = "https://getbootstrap.com">Bootstrap</a><br> language html, css, javascript</p>
+	</footer>
+	</div>
+	</section>
+	
+	</div>
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	<script src="scripts.js"></script>   
+</body>
+</html>
