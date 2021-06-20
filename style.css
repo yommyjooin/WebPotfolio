@@ -338,33 +338,23 @@ i:hover{
     color: white;
 }
 
-#mainNav {
+#mainNavbar {
   min-height: 3.5rem;
   background-color: #fff;
 }
-#mainNav .navbar-toggler {
+#mainNavbar .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  border: 1px solid;
 }
-#mainNav .navbar-toggler:focus {
+#mainNavbar .navbar-toggler:focus {
   outline: none;
 }
-#mainNav .navbar-brand {
+#mainNavbar .navbar-brand {
   color: #000000;
-  font-weight: 700;
-  padding: 0.9rem 0;
+  font-weight: 600;
 }
-#mainNav .navbar-nav .nav-item:hover {
-  color: fade(#fff, 80%);
-  outline: none;
-  background-color: transparent;
-}
-#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
-  outline: none;
-  background-color: transparent;
-}
+
 @media (min-width: 992px) {
   #mainNavbar {
     padding-top: 0;

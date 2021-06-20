@@ -111,7 +111,7 @@ window.onclick = function(event) {
           $(".navbar").css("background" , "#fff");
         }
         else{
-          $(".navbar").css("background" , "#EC6947");   
+          $(".navbar").css("background" , "#EC6947");
         }
       })
     })
