@@ -337,7 +337,7 @@ i:hover{
     width: 100px;
     color: white;
 }
-/*
+
 #mainNav {
   min-height: 3.5rem;
   background-color: #fff;
@@ -374,41 +374,14 @@ i:hover{
     transition: background-color 0.3s ease-in-out;
   }
   #mainNavbar .navbar-brand {
-    padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    padding: 0.3rem 0;
+    font-size: 24px;
+    color: rgba(051, 051, 051, 1);
   }
   #mainNavbar .nav-link {
     transition: none;
-    padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
-  }
-  #mainNavbar .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
-  }
-  #mainNavbar .nav-link:active {
-    color: #fff;
-  }
-  #mainNavbar.navbar-shrink {
-    background-color: #fff;
-  }
-  #mainNavbar.navbar-shrink .navbar-brand {
-    color: #000000;
-  }
-  #mainNavbar.navbar-shrink .nav-link {
-    color: #000000;
-    padding: 1.5rem 1.5rem 1.25rem;
-    border-bottom: 0.25rem solid transparent;
-  }
-  #mainNavbar.navbar-shrink .nav-link:hover {
-    color: #64a19d;
-  }
-  #mainNavbar.navbar-shrink .nav-link:active {
-    color: #467370;
-  }
-  #mainNavbar.navbar-shrink .nav-link.active {
-    color: #64a19d;
-    outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    padding: 1.5rem 1.5rem;
+    font-size: 18px;
+    color: rgba(051, 051, 051, 0.5);
   }
 }
-*/
